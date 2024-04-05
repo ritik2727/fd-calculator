@@ -49,6 +49,7 @@ function Form1() {
       newErrors.name = "Name is required";
       formIsValid = false;
     }
+    
 
     if (!email) {
       newErrors.email = "Email is required";
